@@ -1,0 +1,46 @@
+:root {
+  --color-principal: #003049;
+  --color-secundario: #EF233C;
+  --color-terciario: #780000;
+  --color-texto: #EDF2F4; 
+}
+
+
+
+*{
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.header-texto {
+  background-color: var(--color-secundario);
+  color: var(--color-texto);
+}
+
+img.logo-pagina-nav {
+  width: 5rem;
+  height: 4rem;
+}
+
+.navbar{
+  background-color: var(--color-principal);
+}
+
+.menu-nav li a{
+  color: var(--color-texto);
+  font-size: 0.9rem;
+}
+
+.menu-nav li a:hover {
+  border-bottom: 0.5px solid var(--color-secundario); ;
+  color: var(--color-secundario);
+}
+
+.red-social{
+  width: 1.1rem;
+}
+
+.redes-nav  li a:hover{
+  background-color: #EF233C;
+}
